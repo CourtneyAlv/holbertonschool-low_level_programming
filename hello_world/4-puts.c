@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * Write a C program that prints
 */
