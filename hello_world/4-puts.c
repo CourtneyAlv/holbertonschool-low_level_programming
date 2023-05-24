@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 /**
- * function_main - hello put
+ * main - hello puts
+ * Return: 0
 */
 int main(void)
 {
