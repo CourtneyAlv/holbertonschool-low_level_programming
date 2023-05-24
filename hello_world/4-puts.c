@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Write a C program that prints
+ * function_main - hello put
 */
 int main(void)
 {
