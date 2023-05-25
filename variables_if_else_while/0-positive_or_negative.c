@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main - Positive
+ * main - Positive
  * Return: 0
 */
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative\n", n);	
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
