@@ -5,17 +5,20 @@
 */
 int main(void)
 {
-	int h;
+	int h = 48;
 
-	for
-	(h = 48; h <= 58; h++)
+	while
+	(h < 58)
 {
 	putchar(h);
+	(h++);
 }
-	for
-	(h = 'a'; h <= 'f'; h++)
+	h = 'a';
+	while
+	(h <= 'f')
 {
 	putchar(h);
+	(h++);
 }
 	putchar('\n');
 	return (0);
