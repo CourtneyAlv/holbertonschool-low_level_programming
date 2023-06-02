@@ -22,10 +22,9 @@ int main(void)
 	printf("Fizz ");
 
 	else
-	printf("%d", i);
-
-	printf(" ");
+	printf("%d ", i);
 
 }
+	printf("\n");
 	return (0);
 }
