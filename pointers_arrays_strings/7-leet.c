@@ -7,20 +7,20 @@
 */
 char *leet(char *p)
 {
-	int i;
+	int i, j;
+	char *letters = "AEOTL";
+	char *leet[] = {"4", "3", "0", "7", "1"};
 
 	for (i = 0; p[i] != '\0'; i++)
 {
-	if (p[i] == 'a' || p[i] == 'A')
-		p[i] = '4';
-	else if (p[i] == 'e' || p[i] == 'E')
-		p[i] = '3';
-	else if (p[i] == 'o' || p[i] == 'O')
-		p[i] = '0';
-	else if (p[i] == 't' || p[i] == 'T')
-		p[i] = '7';
-	else if (p[i] == 'l' || p[i] == 'L')
-		p[i] = '1';
+	for (j = 0; j < 5; j++)
+{
+	if (p[i] == letters[j] || p[i] == letters[j] + 32)
+{
+	p[i] = *leet[j];
+	break;
+}
+}
 }
 	return (p);
 }
