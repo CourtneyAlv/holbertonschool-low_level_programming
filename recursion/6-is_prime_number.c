@@ -27,7 +27,7 @@ int _prime(int n, int b)
 	return (0);
 
 	if ((n / b) < b)
-	return(1);
+	return (1);
 
 	return (_prime(n, b + 1));
 }
