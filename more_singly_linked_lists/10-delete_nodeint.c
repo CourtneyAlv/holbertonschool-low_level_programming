@@ -33,5 +33,5 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	current->next = tempo->next;
 	free(tempo);
 
-	return (-1);
+	return (1);
 }
