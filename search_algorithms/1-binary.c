@@ -20,7 +20,7 @@ int binary_search(int *array, size_t size, int value)
 	{
 		mid = left + (right - left) / 2; /* calculate middle index */
 		printf("Searching in array: ");
-		
+
 		for (i = left; i <= right; i++)
 		{
 			printf("%d", array[i]);
@@ -30,7 +30,7 @@ int binary_search(int *array, size_t size, int value)
 				printf(", ");
 			}
 		}
-	
+
 	printf("\n");
 
 	if (array[mid] == value)
@@ -46,4 +46,4 @@ int binary_search(int *array, size_t size, int value)
 		right = mid - 1; /* adjust the right boundary */
 	}
 	}
-	return (-1);}
+	return (-1); }
