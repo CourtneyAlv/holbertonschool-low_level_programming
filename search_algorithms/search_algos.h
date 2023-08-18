@@ -5,6 +5,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stddef.h> /* for size_t */
 
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
